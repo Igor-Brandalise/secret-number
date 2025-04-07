@@ -13,18 +13,22 @@
     <h1 class="text-4xl text-center pt-10">Número Secreto</h1>
 
 
-    <main class="bg-gray-900 border-white border-2 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-[20rem] flex justify-center max-sm:w-[23rem] min-sm:w-[30rem] min-md:w-[35rem] lg:w-[40rem]">
+    <main
+        class="bg-gray-900 border-white border-2 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-[20rem] flex justify-center max-sm:w-[23rem] min-sm:w-[30rem] min-md:w-[35rem] lg:w-[40rem]">
 
         <section class="text-center content-center ">
 
-            <input type="number" name="" id="guess-input" placeholder="Escolha um número de 1-50" min="1" max="50" class="bg-white h-10 size-4 w-[15em] text-center text-black ml-17 rounded-[4px] max-sm:w-[12em]">
+            <input type="number" name="" id="guess-input" placeholder="Escolha um número de 1-50" min="1" max="50"
+                class="bg-white h-10 size-4 w-[15em] text-center text-black ml-17 rounded-[4px] max-sm:w-[12em]">
 
-            <button id="guess-btn" class="hover:translate-y-[-2px] transition duration-300 bg-lime-200 text-black rounded-[5px] h-8 w-[5em] ml-2.5"
+            <button id="guess-btn"
+                class="hover:translate-y-[-2px] transition duration-300 bg-lime-200 text-black rounded-[5px] h-8 w-[5em] ml-2.5"
                 onclick="tentar()">Tentar</button>
 
             <p id="feedback" class="text-base m-4"></p>
 
-            <button id="restart" class="bg-red-400 p-2 rounded-[10px] hover:scale-105 transition duration-300" onclick="reset()">Jogar novamente</button>
+            <button id="restart" class="bg-red-400 p-2 rounded-[10px] hover:scale-105 transition duration-300"
+                onclick="reset()">Jogar novamente</button>
 
         </section>
 
